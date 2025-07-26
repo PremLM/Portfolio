@@ -67,7 +67,6 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Mobile Navigation Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -78,7 +77,6 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
         {isOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             {navItems.map((item) => (

@@ -14,17 +14,15 @@ export default function About() {
               with details and solving problems, and I hope my skills are suitable for this position in your company. Thank you.
             </p>
 
-            {/* ปุ่ม Resume */}
             <a
-              href="/resume.pdf" // ใส่ไฟล์ resume ไว้ในโฟลเดอร์ public/resume.pdf
+              href="/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
             >
-              View My Resume
+              My Resume
             </a>
 
-            {/* Skills Badges */}
             <div className="flex flex-wrap gap-4 pt-4">
               <span className="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
                 Problem Solver
@@ -41,7 +39,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* รูปภาพด้านขวา */}
           <div className="relative">
             <div className="w-full h-96 rounded-lg shadow-xl overflow-hidden">
               <img
