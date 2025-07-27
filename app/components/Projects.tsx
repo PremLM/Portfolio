@@ -33,7 +33,7 @@ fullDescription:
     shortDescription: "Citizen data platform improving access to public info and services",
     fullDescription:
       "This project was developed to digitize citizen information management and improve communication between Mae Chan Municipality and the public, enabling easier access to services and announcements for all citizens. I was responsible for designing a user-friendly UX/UI tailored to local users and creating test cases to ensure the system functions accurately",
-    technologies: ["Figma", "Freppe", "React" ,  "Google sheets"],
+    technologies: ["Figma", "Freppe", "React" ,"Tailwind CSS", "Google sheets"],
     image: "/maechan.png?height=200&width=300&text=Weather+App",
     duration: "3 month",
     teamSize: "Team Project",
@@ -170,7 +170,7 @@ export default function Projects() {
                 <div className="flex items-center space-x-3">
                   <Users className="text-green-600" size={20} />
                   <div>
-                    <p className="text-sm text-gray-500">Team Size</p>
+                    <p className="text-sm text-gray-500">Project Type</p>
                     <p className="font-semibold">{selectedProject.teamSize}</p>
                   </div>
                 </div>
