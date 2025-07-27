@@ -42,7 +42,7 @@ export default function About() {
           <div className="relative">
             <div className="w-full h-96 rounded-lg shadow-xl overflow-hidden">
               <img
-                src="/about.png?height=384&width=300&text=About+Me"
+                src="/aboutme.png?height=384&width=300&text=About+Me"
                 alt="Alex Johnson"
                 className="w-full h-full object-cover"
               />
